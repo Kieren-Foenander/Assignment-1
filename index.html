@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta data -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Jquery library needs to be placed above any reference to Boostrap js -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<script src="js/bootstrap.min.js"></script>
+
+		<title>Exotic Car Sales</title>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  <a class="navbar-brand" href="index.html">Exotic Car Sales</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="new.html">New</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="used.html">Used</a>
+			      </li>
+				  <li class="nav-item">
+					  <a class = "nav-link" href="Details.html"> Details</a>
+				  </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="aboutUs.html">About Us</a>
+			      </li>
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search Cars" aria-label="Search" aria-describedby="basic-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-outline-success btn-outline-light" type="button">Go</button>
+						</div>
+					</div>
+			    </form>
+			  </div>
+			</nav>
+		
+
+		
+
+
+			<h2 class="text-light text-center mt-4">Featured New Cars</h2>
+			<div class="row p-3">
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class="card bg-dark text-light" href="#">
+						<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+							  <div class="carousel-item active">
+								<img src="img/new/amg/amg 1.jpg" class="d-block w-100" data-bs-inter="1000" alt="...">
+							  </div>
+							  <div class="carousel-item">
+								<img src="img/new/amg/amg 2.jpg" class="d-block w-100" data-bs-inter="1000" alt="...">
+							  </div>
+							  <div class="carousel-item">
+								<img src = "img/new/amg/amg 3.jpg" class="d-block w-100" data-bs-inter="1000" alt="...">
+							  </div>
+							  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							  </button>
+							  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							  </button>
+							</div>
+						</div>
+					  <div class="card-body text-left">
+					    <p class="card-text">
+							2020 AMG GTR 
+							<br>
+							$256,111 
+						</p>
+					  </div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class="card bg-dark text-light" href="#">
+					  <img class="card-img-top" src="img/new/aventador/aventador 1.jpg" alt="Lamborghini Aventador">
+					  <div class="card-body text-left">
+					    <p class="card-text">
+							2020 Lamborghini Aventador
+							<br>
+							$789,425 
+						</p>
+					  </div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class="card bg-dark text-light" href="#">
+					  <img class="card-img-top" src="img/new/f90/f90 1.jpg" alt="Ferarri F90">
+					  <div class="card-body text-left">
+					    <p class="card-text">
+							2020 Ferrari F90 
+							<br>
+							$846,888
+						</p>
+					  </div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class="card bg-dark text-light" href="#">
+					  <img class="card-img-top" src="img/new/p1/p1 1.jpg" alt="Mclaren P1">
+					  <div class="card-body text-left">
+					    <p class="card-text">
+							2020 Mclaren P1 
+							<br>
+							$2,000,000 
+						</p>
+					  </div>
+					</a>
+				</div>
+				
+			</div>	
+
+			
+
+			<h2 class="text-light text-center">Featured Uesd Cars</h2>
+			<div class="row p-3">
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class = "card bg-dark text-light" href="#">
+						<img class="card-img-top" src="img/used/f 360/f 360 1.jpg" alt="Ferrari 360">	
+						<div class="card-body text-left">
+							<p class="card-text text-light">
+								2000 Ferrari 360
+								<br>
+								$74,000
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class = "card bg-dark text-light" href="#">
+						<img class="card-img-top" src="img/used/f1/f1 1.jpg" alt="Mclaren F1">	
+						<div class="card-body text-left">
+							<p class="card-text">
+								1995 Mclaren F1
+								<br>
+								$16,000,000
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class = "card bg-dark text-light" href="#">
+						<img class="card-img-top" src="img/used/gallardo/gallardo 1.jpg" alt="gallardo">	
+						<div class="card-body text-left">
+							<p class="card-text">
+								2006 Lamborghini Gallardo
+								<br>
+								$150,000
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3 pb-3">
+					<a class = "card bg-dark text-light" href="#">
+						<img class="card-img-top" src="img/used/gran/gran 1.jpg" alt="Gran Turismo">	
+						<div class="card-body text-left">
+							<p class="card-text">
+								1995 Gran Turismo
+								<br>
+								$132,000
+							</p>
+						</div>
+					</a>
+				</div>
+				
+			</div>
+
+			
+
+			<footer>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="list-unstyled flat-list text-center text-light">
+							<li><a href="index.html" target="_self" class="text-light">Home</a> | </li>
+							<li><a href="books.html" target="_self" class="text-light">New</a> | </li>
+							<li><a href="#" target="_self" class="text-light">Used</a> | </li>
+							<li><a href="#" target="_self" class="text-light">Details</a> | </li>
+							<li><a href="#" target="_self" class="text-light">About Us</a> </li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
