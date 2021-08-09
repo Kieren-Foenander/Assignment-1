@@ -1,50 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Meta data -->
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Jquery library needs to be placed above any reference to Boostrap js -->
-		<script src="js/jquery-3.3.1.min.js"></script>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/custom.css">
-		<script src="js/bootstrap.min.js"></script>
+<head>
+	<!-- Meta data -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Exotic Car Sales</title>
-	</head>
-	<body>
-		<div class="container">
-			<div class="container">
-				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-					<div class="container-fluid">
-					  <a class="navbar-brand" href="#">Exotic Car Sales</a>
-					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					  </button>
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						  <li class="nav-item">
-							<a class="nav-link"  href="index.html">Home</a>
-						  </li>
-						  <li class="nav-item">
+	<!-- Jquery library needs to be placed above any reference to Boostrap js -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/bootstrap.min.js"></script>
+
+	<title>Exotic Car Sales</title>
+</head>
+
+<body>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Exotic Car Sales</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link " aria-current="page" href="new.html">New</a>
-						  </li>
-						  <li class="nav-item ">
+						</li>
+						<li class="nav-item ">
 							<a class="nav-link" href="used.html">Used</a>
-						  </li>
-						  <li class="nav-item">
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="details.html">Details</a>
-						  </li>
-						  <li class="nav-item ">
+						</li>
+						<li class="nav-item ">
 							<a class="nav-link active" href="aboutUs.html">About Us</a>
-						  </li>
-						</ul>
-						<form class="d-flex">
-						  <input class="form-control me-2" type="search" placeholder="Search Cars" aria-label="Search">
-						  <button class="btn btn-outline-light" type="submit">Go</button>
-						</form>
-					  </div>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search Cars" aria-label="Search">
+						<button class="btn btn-outline-light" type="submit">Go</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+
+		<div class="row col-sm-12 col-md-12 pb-5 mt-5">
+			<img src="img/logo.png" class="rounded-pill" alt="logo">
+		</div>
+		<div class="text-light">
+			<div class="card bg-dark aboutUsCard">
+				<h5 class="card-header text-center">About Us</h5>
+				<div class="card-body">
+					<p class="card-text">
+						We have a dedicated team of professionals committed to providing exceptional customer service
+						for the people. When you visit Exotic Car Sales, you can expect to receive a warm and welcoming
+						experience that will ensure you will continue to return to us for all of your automotive
+						needs.<br><br>
+
+						Our sales, service, parts, finance and car care and accessories departments deliver professional
+						award-winning service and promise you high levels of customer satisfaction as you browse our
+						range or have your car professionally serviced and maintained by our fully qualified
+						technicians.<br><br>
+
+						We offer expert after-sales service with courtesy pick-up and drop-off at your convenience. You
+						can be comfortable in the knowledge that your car is being treated with the care and
+						professionalism you would expect from our service team in our modern workshop service area.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="card mb-3 col-sm-2 col-md-6 pb-5 mt-5 bg-dark text-white m-1" style="min-width: 300px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="img/salesman.jpg" class="img-fluid rounded-circle" alt="salesman">
 					</div>
-				  </nav>
+					<div class="col-md-7">
+						<div class="card-body">
+							<h5 class="card-title">Greg Salesman</h5>
+							<p class="card-text">Hi my name is Greg and I specialise in Lamborghini sales. If you've got
+								a lot of cash and you like fast cars then I'm your guy</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3 col-sm-2 col-md-6 pb-5 mt-5 bg-dark text-white m-1" style="min-width: 300px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="img/salesman2.jpg" class="img-fluid rounded-circle" alt="salesman">
+					</div>
+					<div class="col-md-7">
+						<div class="card-body">
+							<h5 class="card-title">Simon Salesman</h5>
+							<p class="card-text">Hi my name is Simon and I specialise in used Exotics. If you've got a
+								passion for older cars then I'm your guy</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3 col-sm-2 col-md-6 pb-5 mt-5 bg-dark text-white m-1" style="min-width: 300px;">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<img src="img/salesman3.png" class="img-fluid rounded-circle" alt="salesman">
+					</div>
+					<div class="col-md-7">
+						<div class="card-body">
+							<h5 class="card-title">John Salesman</h5>
+							<p class="card-text">Hi my name is John and I specialise in ferrari's. If you can't look
+								past that iconic red then I'm your guy</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="list-unstyled flat-list text-center text-light">
+					<li><a href="index.html" target="_self" class="text-light">Home</a> | </li>
+					<li><a href="new.html" target="_self" class="text-light">New</a> | </li>
+					<li><a href="used.html" target="_self" class="text-light">Used</a> | </li>
+					<li><a href="details.html" target="_self" class="text-light">Details</a> | </li>
+					<li><a href="aboutUs.html" target="_self" class="text-light">About Us</a> </li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="list-unstyled flat-list text-center text-light">
+					<li><a href="#" target="_self" class="text-light">Kieren Foenander</a> | </li>
+					<li><a href="#" target="_self" class="text-light">12141776</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+
+
+
+</body>
+
+</html>

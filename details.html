@@ -11,7 +11,16 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+
+	<script>
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+			return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
+	</script>
 
 	<title>Exotic Car Sales</title>
 </head>
@@ -148,10 +157,14 @@
 									satisfaction.
 									If you wish to test drive one of the vehicles we have here feel free to call me on
 									0412345678
-									or register your details below and I will call you!</p>
+									or register your details below and I will call you!
+									<a href="aboutUs.html">Check the about us page for more information on me</a>
+								</p>
 								<div class="showForm ">
 									<form class="d-flex">
-										<button type="button" class="btn btn-outline-light" id="registerBtn">Register
+										<button type="button" class="btn btn-outline-light" id="registerBtn"
+											data-bs-toggle="tooltip" data-bs-placement="Bottom"
+											title="enter your details">Register
 											your interest</button>
 									</form>
 								</div>
@@ -192,10 +205,10 @@
 						<div class="col-md-12">
 							<ul class="list-unstyled flat-list text-center text-light">
 								<li><a href="index.html" target="_self" class="text-light">Home</a> | </li>
-								<li><a href="books.html" target="_self" class="text-light">New</a> | </li>
-								<li><a href="#" target="_self" class="text-light">Used</a> | </li>
-								<li><a href="#" target="_self" class="text-light">Details</a> | </li>
-								<li><a href="#" target="_self" class="text-light">About Us</a> </li>
+								<li><a href="new.html" target="_self" class="text-light">New</a> | </li>
+								<li><a href="used.html" target="_self" class="text-light">Used</a> | </li>
+								<li><a href="details.html" target="_self" class="text-light">Details</a> | </li>
+								<li><a href="aboutUs.html" target="_self" class="text-light">About Us</a> </li>
 							</ul>
 						</div>
 					</div>

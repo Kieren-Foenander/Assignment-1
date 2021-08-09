@@ -1,72 +1,51 @@
-body{
-	background-color: rgb(51, 51, 59);
+body {
+  background-color: rgb(51, 51, 59);
 }
 
 .flat-list li {
-	display: inline;
+  display: inline;
 }
-a{
-	color: white;
-
+a {
+  color: white;
 }
-a:hover{
-	color: rgb(46, 42, 42);
-}
-
-h2{
-	padding: 15px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-h3{
-	padding: 15px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-p{
-	padding: 15px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-table{
-	padding: 15px;
+a:hover {
+  color: rgb(46, 42, 42);
 }
 
-
-
-
-.card{
-	font-family: Arial, Helvetica, sans-serif;
-	
+h2 {
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+  padding: 15px;
 }
 
-.card:hover{
-	background-color: rgb(204, 197, 197);
-	
-}
-iframe{
-	display: block;
+.card {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.customerInput{
-	display: none;
+.card:hover {
+  background-color: rgb(204, 197, 197);
 }
-.customerAlert{
-	display: none;
-}
-/*
-.salesman{
-	border-radius: 100%;
-	
+iframe {
+  display: block;
 }
 
- .amgDetails{
-	display: none;
+.customerInput {
+  display: none;
 }
-.aDetails{
-	display: none;
+.customerAlert {
+  display: none;
 }
- */
-
-
 
 footer {
-	margin-top: 100px;
+  margin-top: 100px;
 }
